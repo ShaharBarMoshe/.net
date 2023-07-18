@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/shaharbm/projects/net/Playlist.API/Playlist.API.csproj": {}
+    "/home/shaharb/projects/aws-test/net/Playlist.API/Playlist.API.csproj": {}
   },
   "projects": {
-    "/home/shaharbm/projects/net/Playlist.API/Playlist.API.csproj": {
+    "/home/shaharb/projects/aws-test/net/Playlist.API/Playlist.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shaharbm/projects/net/Playlist.API/Playlist.API.csproj",
+        "projectUniqueName": "/home/shaharb/projects/aws-test/net/Playlist.API/Playlist.API.csproj",
         "projectName": "Playlist.API",
-        "projectPath": "/home/shaharbm/projects/net/Playlist.API/Playlist.API.csproj",
-        "packagesPath": "/home/shaharbm/.nuget/packages/",
-        "outputPath": "/home/shaharbm/projects/net/Playlist.API/obj/",
+        "projectPath": "/home/shaharb/projects/aws-test/net/Playlist.API/Playlist.API.csproj",
+        "packagesPath": "/home/shaharb/.nuget/packages/",
+        "outputPath": "/home/shaharb/projects/aws-test/net/Playlist.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/shaharbm/.nuget/NuGet/NuGet.Config"
+          "/home/shaharb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/share/dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[2.20.0, )"
             },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -67,6 +71,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
         }
       }
     }

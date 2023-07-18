@@ -15,7 +15,6 @@ namespace Playlist.API.Controllers
         {
             _movieService = moviesService;
         }
-
         [HttpGet]
         public ActionResult<List<Movie>> Get() =>
             _movieService.Get();
