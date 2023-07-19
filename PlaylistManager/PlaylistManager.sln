@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playlist.API", "..\Playlist.API\Playlist.API.csproj", "{6FB8E852-55C5-4663-8A2D-D07380F87CEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playlist.API.Tests", "..\Playlist.API.Tests\Playlist.API.Tests.csproj", "{B9113F99-001F-441C-BAE3-77555AECD014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6FB8E852-55C5-4663-8A2D-D07380F87CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB8E852-55C5-4663-8A2D-D07380F87CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB8E852-55C5-4663-8A2D-D07380F87CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9113F99-001F-441C-BAE3-77555AECD014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9113F99-001F-441C-BAE3-77555AECD014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9113F99-001F-441C-BAE3-77555AECD014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9113F99-001F-441C-BAE3-77555AECD014}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

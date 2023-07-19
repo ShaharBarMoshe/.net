@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "oEQQNaBmwIav3nt1QPFi2ivZlLuWPEJaBN3wA29W1qwZ3Cwha5O15FjOpZj4TcU4kU/3ygUjtg5G/FBM+Vt/ww==",
+  "success": true,
+  "projectFilePath": "/home/shaharb/projects/aws-test/net/another-instance/another-instance.csproj",
+  "expectedPackageFiles": [
+    "/home/shaharb/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/microsoft.netcore.app.ref/7.0.8/microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.8/microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.8/microsoft.netcore.app.host.linux-x64.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

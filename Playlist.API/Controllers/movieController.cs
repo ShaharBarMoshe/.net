@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Playlist.API.Models;
 using Playlist.API.Services;
 namespace Playlist.API.Controllers
+
 {
     [Route("playlist")]
     [ApiController]
@@ -22,6 +23,7 @@ namespace Playlist.API.Controllers
         [HttpGet("{id:length(24)}", Name = "GetMovie")]
         public ActionResult<Movie> Get(string id)
         {
+
             var movie = _movieService.Get(id);
 
             if (movie == null)

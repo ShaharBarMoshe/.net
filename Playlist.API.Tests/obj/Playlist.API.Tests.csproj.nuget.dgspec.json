@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/shaharbm/projects/net/Playlist.API.Tests/Playlist.API.Tests.csproj": {}
+    "/home/shaharb/projects/aws-test/net/Playlist.API.Tests/Playlist.API.Tests.csproj": {}
   },
   "projects": {
-    "/home/shaharbm/projects/net/Playlist.API.Tests/Playlist.API.Tests.csproj": {
+    "/home/shaharb/projects/aws-test/net/Playlist.API.Tests/Playlist.API.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shaharbm/projects/net/Playlist.API.Tests/Playlist.API.Tests.csproj",
+        "projectUniqueName": "/home/shaharb/projects/aws-test/net/Playlist.API.Tests/Playlist.API.Tests.csproj",
         "projectName": "Playlist.API.Tests",
-        "projectPath": "/home/shaharbm/projects/net/Playlist.API.Tests/Playlist.API.Tests.csproj",
-        "packagesPath": "/home/shaharbm/.nuget/packages/",
-        "outputPath": "/home/shaharbm/projects/net/Playlist.API.Tests/obj/",
+        "projectPath": "/home/shaharb/projects/aws-test/net/Playlist.API.Tests/Playlist.API.Tests.csproj",
+        "packagesPath": "/home/shaharb/.nuget/packages/",
+        "outputPath": "/home/shaharb/projects/aws-test/net/Playlist.API.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/shaharbm/.nuget/NuGet/NuGet.Config"
+          "/home/shaharb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -41,6 +41,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -70,12 +74,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
         }
       }
     }

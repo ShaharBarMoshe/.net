@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WQ0LjvA+cF7atJRyx7nIB7hIK65hZ6PQrPR2tKyPUJg3PE97Mgv0pG2jS1xA34uj8p4ag0uHCYIc+WssMkM7vQ==",
+  "dgSpecHash": "BRPmLXiMFZn3KSpR2ucx6iL5ByZ4FS1Y67I7VUlqtDkPPE5rgxCnJL9GD1We3QYlSmqMrzsW2I6peYhwtlO5FQ==",
   "success": true,
   "projectFilePath": "/home/shaharb/projects/aws-test/net/Playlist.API/Playlist.API.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "/home/shaharb/.nuget/packages/mongodb.libmongocrypt/1.8.0/mongodb.libmongocrypt.1.8.0.nupkg.sha512",
     "/home/shaharb/.nuget/packages/serilog/2.12.0/serilog.2.12.0.nupkg.sha512",
     "/home/shaharb/.nuget/packages/serilog.extensions.logging/7.0.0/serilog.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/shaharb/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/home/shaharb/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/home/shaharb/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/home/shaharb/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

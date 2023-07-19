@@ -97,3 +97,6 @@
 /home/shaharb/projects/aws-test/net/Playlist.API/obj/Debug/net7.0/Playlist.API.csproj.CopyComplete
 /home/shaharb/projects/aws-test/net/Playlist.API/obj/Debug/net7.0/Playlist.API.genruntimeconfig.cache
 /home/shaharb/projects/aws-test/net/Playlist.API/obj/Debug/net7.0/ref/Playlist.API.dll
+/home/shaharb/projects/aws-test/net/Playlist.API/bin/Debug/net7.0/Serilog.dll
+/home/shaharb/projects/aws-test/net/Playlist.API/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/home/shaharb/projects/aws-test/net/Playlist.API/bin/Debug/net7.0/Serilog.Sinks.File.dll
